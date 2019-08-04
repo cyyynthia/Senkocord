@@ -12,6 +12,21 @@ module.exports = class HeySenko extends Plugin {
       'https://cdn.discordapp.com/attachments/460918145566375936/605146018228469760/56.jpg',
       'https://cdn.discordapp.com/attachments/460918145566375936/605146017633009705/58.jpg',
       'https://cdn.discordapp.com/attachments/401755854744846337/605111862354509849/unknown.png',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606988991413092402/Download-2.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606988522880106518/My_favorite_moment_in_the_anime.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606988492450299959/54.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606988489405366284/53.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606988488755380244/56a.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606982882371698698/70.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606259036282683404/69.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606248863950700545/68.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606248863950700544/67.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606211245242056735/unknown.png',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606210785848459314/unknown.png',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606208547193225237/unknown.png',
+      'https://cdn.discordapp.com/attachments/460918145566375936/606207264289718289/unknown.png',
+      'https://cdn.discordapp.com/attachments/460918145566375936/605547076805197835/66.jpg',
+      'https://cdn.discordapp.com/attachments/460918145566375936/605547076805197834/PSX_20190730_024618.jpg',
       'https://cdn.discordapp.com/attachments/460918145566375936/605146017196933164/62.jpg'
     ];
   }

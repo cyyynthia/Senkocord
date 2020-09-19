@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020 Bowser65
+ * Licensed under the Open Software License version 3.0
+ */
+
 const { Plugin } = require('powercord/entities');
 
 module.exports = class HeySenko extends Plugin {
@@ -32,13 +37,16 @@ module.exports = class HeySenko extends Plugin {
   }
 
   startPlugin () {
-    this.registerCommand(
-      'heysenko',
-      [],
-      'Replaces every image with a random image of Senko.',
-      '{c}',
-      this.heysenko.bind(this)
-    );
+    powercord.api.commands.registerCommand({
+      command: 'heysenko',
+      description: 'Replaces every image with a random image of Senko.',
+      usage: '{c}',
+      executor: this.heysenko.bind(this)
+    })
+  }
+
+  pluginWillUnload () {
+    powercord.api.commands.unregisterCommand('command-name')
   }
 
   getRandomURL () {
